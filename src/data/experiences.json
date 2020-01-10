@@ -1,0 +1,20 @@
+[
+    {
+        "company": "Facebook",
+        "img": "fb.png",
+        "title": "Software Engineering Intern",
+        "description": "placeholder"
+    },
+    {
+        "company": "Salesforce",
+        "img": "salesforce.png",
+        "title": "Software Engineering Intern",
+        "description": "placeholder"
+    },
+    {
+        "company": "NASA",
+        "img": "nasa-jpl.png",
+        "title": "Software Engineering Intern",
+        "description": "placeholder"
+    }
+]

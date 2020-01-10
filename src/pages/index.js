@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import { Box, Container, Grid, Paper } from '@material-ui/core';
+import { Typography, Box, Container, Grid, Paper } from '@material-ui/core';
 import Experiences from "../components/experiences"
 import Projects from "../components/projects"
 
@@ -24,19 +24,19 @@ const IndexPage = () => (
                 <Image/>
               </Grid>
               <Grid item xs={8}>
-                <h1>Hi, I'm Daniel</h1>
-                <p>
+                <Typography variant='h1'>Hi, I'm Daniel</Typography>
+                <Typography variant='body1'>
                   Placeholder about me
-                </p>
+                </Typography>
               </Grid>
             </Grid>
           </Box>
           <Box p={3}>
-            <h1>Experiences</h1>
+            <Typography variant='h2'>Experiences</Typography>
             <Experiences/>
           </Box>
           <Box p={3}>
-            <h1>Work</h1>
+            <Typography variant='h2'>Work</Typography>
             <Projects/>
           </Box>
         </Paper>

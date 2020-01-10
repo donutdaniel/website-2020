@@ -11,8 +11,6 @@ import Helmet from "react-helmet"
 
 import "./layout.css"
 
-import { Typography } from "@material-ui/core/"
-
 const Layout = ({ children }) => {
   return (
     <>
@@ -22,9 +20,7 @@ const Layout = ({ children }) => {
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Helmet>
       <main>
-        <Typography>
-          {children}
-        </Typography>
+        {children}
       </main>
     </>
   )
