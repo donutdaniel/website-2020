@@ -1,20 +1,42 @@
 [
     {
         "company": "Facebook",
-        "img": "fb.png",
+        "img": "facebook.png",
         "title": "Software Engineering Intern",
-        "description": "placeholder"
+        "subtitle": "May 2019 - August 2019 | Seattle",
+        "description": [
+            "Backend Engineering on Messenger Infrastructure in C++ and PHP.",
+            "Designed, Built, and Shipped new post processing procedures for contact and story delivery and storage. Worked across multiple teams to deliver support fortheir products.",
+            "Optimizations resulted in CPU and Storage cost reduction. Successfully launched and in production."
+        ]
     },
     {
         "company": "Salesforce",
         "img": "salesforce.png",
         "title": "Software Engineering Intern",
-        "description": "placeholder"
+        "subtitle": "May 2018 - August 2018 | San Francisco",
+        "description": [
+            "Fullstack Engineering on Sales Cloud Accounts Team in HTML/CSS, Javascript, and Java.",
+            "Planned and Drove development of a real time file streaming service for sales operations. Setup webservers, Built frontend desktop and mobile clients, backend data pipeline APIs, link generation algorithms, and stream handling through webRTC."
+        ]
     },
     {
-        "company": "NASA",
-        "img": "nasa-jpl.png",
-        "title": "Software Engineering Intern",
-        "description": "placeholder"
+        "company": "NASA Jet Propulsion Laboratory",
+        "img": "nasa.png",
+        "title": "AI Research Intern",
+        "subtitle": "October 2017 - May 2018 | Pasadena",
+        "description": [
+            "Developed a TensorFlow convolutional neural network for sound detection rate in noisy environments. Compiled and synthesized sound clip datasets.",
+            "Programmed a framework of developertools for automated data aggregation, environment building, training, and analytics."
+        ]
+    },
+    {
+        "company": "USC Viterbi",
+        "img": "usc_shield.png",
+        "title": "Course Producer",
+        "subtitle": "August 2018 - May 2019 | Los Angeles",
+        "description": [
+            "Undergraduate teaching assistant in Discrete Mathematics. Hold office hours, grade coursework, and assist discussions."
+        ]
     }
 ]

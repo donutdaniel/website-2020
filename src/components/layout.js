@@ -1,15 +1,14 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 
 import "./layout.css"
+
+import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
+import { ThemeProvider } from "@material-ui/core"
+
+let theme = createMuiTheme();
+theme = responsiveFontSizes(theme);
 
 const Layout = ({ children }) => {
   return (
@@ -20,7 +19,9 @@ const Layout = ({ children }) => {
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Helmet>
       <main>
-        {children}
+        <ThemeProvider theme={theme}>
+          {children}
+        </ThemeProvider>
       </main>
     </>
   )

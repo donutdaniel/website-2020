@@ -1,12 +1,18 @@
 [
     {
+        "img": "nasa.png",
         "title": "Bot Bot",
-        "img": "botbot.png",
-        "description": "placeholder"
+        "subtitle": "placeholder subtitle",
+        "description": [
+            "placeholder"
+        ]
     },
     {
+        "img": "nasa.png",
         "title": "Echo",
-        "img": "echo.png",
-        "description": "placeholder"
+        "subtitle": "placeholder subtitle",
+        "description": [
+            "placeholder"
+        ]
     }
 ]

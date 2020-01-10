@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import { Grid, Card, Typography } from "@material-ui/core"
+import { Grid, Divider } from "@material-ui/core"
+import CustomCard from "./customcard"
 
 const Experience = () => {
   const data = useStaticQuery(
@@ -14,6 +15,7 @@ const Experience = () => {
               company
               img
               title
+              subtitle
             }
           }
         }
@@ -23,24 +25,31 @@ const Experience = () => {
 
   const experiences_data = data.allExperiencesJson.edges
   var experiences = []
-  for (var i=0; i<experiences_data.length; i++) {
+  for (var i = 0; i < experiences_data.length; i++) {
     var exp = experiences_data[i].node
     experiences.push(
       <Grid item>
-        company: {exp.company} <br/>
-        title: {exp.title}
+        <CustomCard
+          header={exp.company}
+          title={exp.title}
+          subtitle={exp.subtitle}
+          img={exp.img}
+          description={exp.description}
+        />
       </Grid>
     )
+    experiences.push(<Divider variant='middle' />)
   }
+  experiences.pop() // remove the last divider
 
   return (
-      <Grid
-        container
-        direction="column"
-        spacing={3}
-      >
-        {experiences}
-      </Grid>
+    <Grid
+      container
+      direction="column"
+      spacing={3}
+    >
+      {experiences}
+    </Grid>
   )
 }
 
