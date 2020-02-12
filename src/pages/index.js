@@ -1,4 +1,5 @@
 import React from "react"
+import Particles from 'react-particles-js';
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -13,7 +14,19 @@ import "./index.css"
 const IndexPage = () => (
   <Layout>
     <SEO />
-    <Box m={3} justifyContent="center">
+    <Particles 
+      params={{
+        "particles": {
+            "number": {
+                "value": 80
+            },
+            "size": {
+                "value": 3
+            }
+        }
+      }}
+    />
+    <Box p={3} justifyContent="center">
       <Container maxWidth='md' disableGutters={true}>
         <Paper elevation={5}>
           <Box p={3}>
