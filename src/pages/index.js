@@ -1,5 +1,6 @@
 import React from "react"
 import Particles from 'react-particles-js'
+import Typed from 'react-typed'
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -51,7 +52,18 @@ const IndexPage = () => (
               <Grid item xs={8} >
                 <Typography id='greeting' variant={window.innerWidth < 700 ? 'h4' : 'h2'}>
                   <Box fontWeight='fontWeightLight'>
-                    Hi, I'm Daniel
+                    <Typed
+                      strings={[
+                        'Hi, I\'m Daniel',
+                        'Hi, I\'m a coder',
+                        'Hi, I\'m a designer',
+                        'Hi, I\'m a learner'
+                      ]}
+                      typeSpeed={40}
+                      backSpeed={50}
+                      backDelay={3000}
+                      loop
+                    />
                   </Box>
                 </Typography>
               </Grid>
