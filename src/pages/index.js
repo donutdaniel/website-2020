@@ -18,7 +18,7 @@ import "./index.css"
 const GitHubLink = "https://github.com/donutdaniel"
 const LinkedInLink = "https://linkedin.com/in/danielho54"
 
-const gutter = 3
+const gutter = 2
 
 class IndexPage extends React.Component{
   render () {
@@ -40,7 +40,7 @@ class IndexPage extends React.Component{
         <Box p={3} justifyContent="center">
           <Container maxWidth='md' disableGutters={true}>
             <Paper elevation={5}>
-              <Box p={3}>
+              <Box p={gutter}>
                 <Grid
                   container
                   align='center'
@@ -90,7 +90,7 @@ class IndexPage extends React.Component{
                     </Typography>
                   </Grid>
                   <Grid item>
-                    <Box paddingRight={3}>
+                    <Box paddingX={3}>
                       <Grid
                         container
                         align='center'

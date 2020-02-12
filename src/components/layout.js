@@ -9,7 +9,8 @@ import { ThemeProvider } from "@material-ui/core"
 
 let theme = createMuiTheme();
 theme = responsiveFontSizes(theme);
-theme.typography.h2['fontSize'] = '25px'
+theme.typography.h2['fontSize'] = '24px'
+theme.typography.h4['fontSize'] = '24px'
 
 const Layout = ({ children }) => {
   return (
