@@ -52,7 +52,7 @@ const Experience = () => {
     <Grid
       container
       direction="column"
-      spacing={3}
+      spacing={window.innerWidth < 700 ? 1 : 3}
     >
       {experiences}
     </Grid>

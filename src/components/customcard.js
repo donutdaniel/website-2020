@@ -1,5 +1,5 @@
 import React from "react"
-import { Box, Grid, Typography } from "@material-ui/core"
+import { Box, Grid, Typography, Link } from "@material-ui/core"
 
 const CustomCard = ({ header, title, subtitle, img, href, description }) => {
   var descriptions = []
@@ -14,12 +14,12 @@ const CustomCard = ({ header, title, subtitle, img, href, description }) => {
 
   return (
     <Box m={1} textAlign='left'>
-      <Grid container spacing={3}>
+      <Grid container spacing={window.innerWidth < 700 ? 1 : 3}>
         <Grid item xs='2' className='image' align='center'>
           <Box maxWidth='100px'>
-            <a href={href} target='_blank' rel='noopener noreferrer'>
+            <Link href={href} target='_blank' rel='noopener noreferrer'>
               <img src={require('../images/'+img)} alt='oops'></img>
-            </a>
+            </Link>
           </Box>
         </Grid>
         <Grid container item direction='column' xs='10'>
