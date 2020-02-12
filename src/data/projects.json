@@ -5,7 +5,9 @@
         "title": "HackSC",
         "subtitle": "Technology Director",
         "description": [
-            "placeholder"
+            "Led engineering team at USC’s largest hackathon",
+            "Built HackSC’s developer and applicant hackathon portal as a open source project. Backend in Node.js, Express.js, MongoDB, connected to frontend Angular components. Complete automated mass mailer, application reviewer, and submissions scoring system to handle thousands of users.",
+            "Event space management and transportation coordination between universities."
         ]
     },
     {
@@ -14,7 +16,8 @@
         "title": "Trogons A Cappella",
         "subtitle": "Logistics Director",
         "description": [
-            "placeholder"
+            "East Asian A Cappella performances for campus concerts and events.",
+            "Schedule events, manage finances, and design promotional material."
         ]
     },
     {
@@ -23,7 +26,8 @@
         "title": "Echo",
         "subtitle": "Stanford Treehacks 2019 Winner",
         "description": [
-            "placeholder"
+            "A fully anonymous and decentralized support platform to connect and enable sexual harassment survivors to take action.",
+            "Built with Node.js on top of the Blockchain network, written and rendered with React."
         ]
     },
     {
@@ -32,7 +36,8 @@
         "title": "Roadtrip",
         "subtitle": "Capstone Project",
         "description": [
-            "placeholder"
+            "An Electron desktop application project that allows users to create and share traveling itineraries in Google Maps.",
+            "Built backend Java server with authentication, concurrent sync and storage in MongoDB."
         ]
     },
     {
@@ -41,7 +46,8 @@
         "title": "Bot Builder",
         "subtitle": "Personal Project",
         "description": [
-            "placeholder"
+            "Chatbot creation platform. Users can build, save, and deploy their own chatbot using an online system.",
+            "The chatbot, stored and represented as a directed graph, can store an endless number of pathways that can be explored through natural language processing and/or option buttons."
         ]
     },
     {
@@ -50,7 +56,7 @@
         "title": "Fusor",
         "subtitle": "Personal Project",
         "description": [
-            "placeholder"
+            "The Farnsworth–Hirsch fusor here uses electrostatic containment to attain nuclear fusion in a relatively small machine."
         ]
     },
     {
@@ -59,7 +65,7 @@
         "title": "2017 Website",
         "subtitle": "Portfolio",
         "description": [
-            "placeholder"
+            "Old portfolio website maintained from 2017-2019."
         ]
     },
     {
@@ -68,7 +74,7 @@
         "title": "2015 Website",
         "subtitle": "Other Projects",
         "description": [
-            "placeholder"
+            "First portfolio website built in 2015."
         ]
     }
 ]
