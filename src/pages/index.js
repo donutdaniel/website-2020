@@ -18,6 +18,8 @@ import "./index.css"
 const GitHubLink = "https://github.com/donutdaniel"
 const LinkedInLink = "https://linkedin.com/in/danielho54"
 
+const gutter = 3
+
 class IndexPage extends React.Component{
   render () {
     return (
@@ -72,7 +74,7 @@ class IndexPage extends React.Component{
                 </Grid>
               </Box>
               <Divider variant='middle'/>
-              <Box p={3} textAlign='left'>
+              <Box p={gutter} textAlign='left'>
                 <Grid
                   container
                   align='center'
@@ -99,21 +101,21 @@ class IndexPage extends React.Component{
                         <Grid item>
                           <Link color='inherit' href={GitHubLink} target='_blank' rel='noopener noreferrer'>
                             <GitHub
-                              fontSize='large'
+                              fontSize='default'
                             />
                           </Link>
                         </Grid>
                         <Grid item>
                           <Link color='inherit' href={LinkedInLink} target='_blank' rel='noopener noreferrer'>
                             <LinkedIn
-                              fontSize='large'
+                              fontSize='default'
                             />
                           </Link>
                         </Grid>
                         <Grid item>
                           <Link color='inherit' href={ResumeLink} target='_blank' rel='noopener noreferrer'>
                             <Description
-                              fontSize='large'
+                              fontSize='default'
                             />
                           </Link>
                         </Grid>
@@ -123,13 +125,13 @@ class IndexPage extends React.Component{
                 </Grid>
                 <Typography variant='body1'>
                   <Box paddingX={3} paddingY={1}>
-                    I'm currently an undergraduate senior at the University of Southern California - graduating 2020 with a bachelor's in computer science and minor in linguistics.
+                    Hi, I'm Daniel! I'm currently an undergraduate senior at the University of Southern California - graduating 2020 with a bachelor's in computer science and minor in linguistics.
                     Here you'll find my different experiences and projects I have worked on in the past. When I'm not writing code, you can catch me singing, playing volleyball, or taking photographs!
                   </Box>
                 </Typography>
               </Box>
     
-              <Box p={3} textAlign='left'>
+              <Box p={gutter} textAlign='left'>
                 <Typography gutterBottom variant='h4'>
                   <Box fontWeight='fontWeightLight' paddingX={3}>
                     Experiences
@@ -137,7 +139,7 @@ class IndexPage extends React.Component{
                 </Typography>
                 <Experiences />
               </Box>
-              <Box p={3} textAlign='left'>
+              <Box p={gutter} textAlign='left'>
                 <Typography gutterBottom variant='h4'>
                   <Box fontWeight='fontWeightLight' paddingX={3}>
                     Work
