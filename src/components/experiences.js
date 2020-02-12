@@ -29,7 +29,7 @@ const Experience = () => {
   for (var i = 0; i < experiences_data.length; i++) {
     var exp = experiences_data[i].node
     experiences.push(
-      <Grid item>
+      <Grid key={'experience'+i} item>
         <CustomCard
           header={exp.company}
           title={exp.title}
@@ -41,7 +41,7 @@ const Experience = () => {
       </Grid>
     )
     experiences.push(
-      <Grid item>
+      <Grid key={'divider'+i} item>
         <Divider variant='middle' />
       </Grid>
     )
@@ -52,7 +52,7 @@ const Experience = () => {
     <Grid
       container
       direction="column"
-      spacing={window.innerWidth < 700 ? 1 : 3}
+      spacing={2}
     >
       {experiences}
     </Grid>

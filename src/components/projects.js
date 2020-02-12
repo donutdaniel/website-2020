@@ -28,7 +28,7 @@ const Project = () => {
   for (var i = 0; i < projects_data.length; i++) {
     var proj = projects_data[i].node
     projects.push(
-      <Grid item>
+      <Grid key={'project'+i} item>
         <CustomCard
           header={proj.title}
           subtitle={proj.subtitle}
@@ -39,7 +39,7 @@ const Project = () => {
       </Grid>
     )
     projects.push(
-      <Grid item>
+      <Grid key={'divider'+i} item>
         <Divider variant='middle' />
       </Grid>
     )
@@ -50,7 +50,7 @@ const Project = () => {
     <Grid
       container
       direction="column"
-      spacing={window.innerWidth < 700 ? 1 : 3}
+      spacing={2}
     >
       {projects}
     </Grid>
