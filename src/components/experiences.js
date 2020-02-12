@@ -13,6 +13,7 @@ const Experience = () => {
               id
               description
               company
+              href
               img
               title
               subtitle
@@ -34,11 +35,16 @@ const Experience = () => {
           title={exp.title}
           subtitle={exp.subtitle}
           img={exp.img}
+          href={exp.href}
           description={exp.description}
         />
       </Grid>
     )
-    experiences.push(<Divider variant='middle' />)
+    experiences.push(
+      <Grid item>
+        <Divider variant='middle' />
+      </Grid>
+    )
   }
   experiences.pop() // remove the last divider
 

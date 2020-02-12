@@ -1,16 +1,72 @@
 [
     {
-        "img": "nasa.png",
-        "title": "Bot Bot",
-        "subtitle": "placeholder subtitle",
+        "img": "projects/hacksc.svg",
+        "href": "https://hacksc.com",
+        "title": "HackSC",
+        "subtitle": "Technology Director",
         "description": [
             "placeholder"
         ]
     },
     {
-        "img": "nasa.png",
+        "img": "projects/trogons.png",
+        "href": "https://www.facebook.com/Trogons", 
+        "title": "Trogons A Cappella",
+        "subtitle": "Logistics Director",
+        "description": [
+            "placeholder"
+        ]
+    },
+    {
+        "img": "projects/echo.svg",
+        "href": "https://github.com/suvir-c/treehacks2019",
         "title": "Echo",
-        "subtitle": "placeholder subtitle",
+        "subtitle": "Stanford Treehacks 2019 Winner",
+        "description": [
+            "placeholder"
+        ]
+    },
+    {
+        "img": "projects/roadtrip.png",
+        "href": "https://github.com/201GroupMap",
+        "title": "Roadtrip",
+        "subtitle": "Capstone Project",
+        "description": [
+            "placeholder"
+        ]
+    },
+    {
+        "img": "projects/botbuilder.png",
+        "href": "https://github.com/donutdaniel/bot", 
+        "title": "Bot Builder",
+        "subtitle": "Personal Project",
+        "description": [
+            "placeholder"
+        ]
+    },
+    {
+        "img": "projects/fusor.png",
+        "href": "https://donutdaniel.github.io/website-2016/downloads/fusor.mp4", 
+        "title": "Fusor",
+        "subtitle": "Personal Project",
+        "description": [
+            "placeholder"
+        ]
+    },
+    {
+        "img": "projects/website-2017.png",
+        "href": "https://donutdaniel.github.io/website-2017",
+        "title": "2017 Website",
+        "subtitle": "Portfolio",
+        "description": [
+            "placeholder"
+        ]
+    },
+    {
+        "img": "projects/website-2015.png",
+        "href": "https://donutdaniel.github.io/website-2015",
+        "title": "2015 Website",
+        "subtitle": "Other Projects",
         "description": [
             "placeholder"
         ]

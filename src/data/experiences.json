@@ -1,7 +1,18 @@
 [
     {
+        "company": "Flexport",
+        "href": "https://www.flexport.com",
+        "img": "experiences/flexport.png",
+        "title": "Software Engineer",
+        "subtitle": "August 2020 | San Francisco",
+        "description": [
+            "Incoming fullstack software engineer at Flexport!"
+        ]
+    },
+    {
         "company": "Facebook",
-        "img": "facebook.png",
+        "href": "https://engineering.fb.com",
+        "img": "experiences/facebook.png",
         "title": "Software Engineering Intern",
         "subtitle": "May 2019 - August 2019 | Seattle",
         "description": [
@@ -12,7 +23,8 @@
     },
     {
         "company": "Salesforce",
-        "img": "salesforce.png",
+        "href": "https://www.salesforce.com",
+        "img": "experiences/salesforce.png",
         "title": "Software Engineering Intern",
         "subtitle": "May 2018 - August 2018 | San Francisco",
         "description": [
@@ -22,7 +34,8 @@
     },
     {
         "company": "NASA Jet Propulsion Laboratory",
-        "img": "nasa.png",
+        "href": "https://www.jpl.nasa.gov",
+        "img": "experiences/nasa.png",
         "title": "AI Research Intern",
         "subtitle": "October 2017 - May 2018 | Pasadena",
         "description": [
@@ -32,11 +45,12 @@
     },
     {
         "company": "USC Viterbi",
-        "img": "usc_shield.png",
+        "href": "https://viterbischool.usc.edu",
+        "img": "experiences/usc_shield.png",
         "title": "Course Producer",
         "subtitle": "August 2018 - May 2019 | Los Angeles",
         "description": [
-            "Undergraduate teaching assistant in Discrete Mathematics. Hold office hours, grade coursework, and assist discussions."
+            "Undergraduate teaching assistant in CSCI 170 Discrete Mathematics and CSCI 270 Algorithms. Hold office hours, create and grade coursework, and lead discussions."
         ]
     }
 ]

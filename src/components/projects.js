@@ -12,6 +12,7 @@ const Project = () => {
             node {
               id
               description
+              href
               img
               title
               subtitle
@@ -32,11 +33,16 @@ const Project = () => {
           header={proj.title}
           subtitle={proj.subtitle}
           img={proj.img}
+          href={proj.href}
           description={proj.description}
         />
       </Grid>
     )
-    projects.push(<Divider variant='middle' />)
+    projects.push(
+      <Grid item>
+        <Divider variant='middle' />
+      </Grid>
+    )
   }
   projects.pop() // remove the last divider
 

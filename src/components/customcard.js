@@ -1,7 +1,7 @@
 import React from "react"
 import { Box, Grid, Typography } from "@material-ui/core"
 
-const CustomCard = ({ header, title, subtitle, img, description }) => {
+const CustomCard = ({ header, title, subtitle, img, href, description }) => {
   var descriptions = []
   
   for (var i=0; i<description.length; i++) {
@@ -17,7 +17,9 @@ const CustomCard = ({ header, title, subtitle, img, description }) => {
       <Grid container spacing={3}>
         <Grid item xs='2' className='image' align='center'>
           <Box maxWidth='100px'>
-            <img src={require('../images/'+img)} alt='oops'></img>
+            <a href={href} target='_blank' rel='noopener noreferrer'>
+              <img src={require('../images/'+img)} alt='oops'></img>
+            </a>
           </Box>
         </Grid>
         <Grid container item direction='column' xs='10'>
