@@ -26,12 +26,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `portfolio-favicon`,
-        short_name: `starter`,
+        name: `Daniel Ho`,
+        short_name: `Daniel Ho`,
+        description: `Daniel Ho's Online Portfolio`,
         start_url: `/`,
-        background_color: `#000000`,
-        theme_color: `#000000`,
-        display: `minimal-ui`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
+        display: `standalone`,
         icon: `src/images/favicon.png`,
       },
     },
