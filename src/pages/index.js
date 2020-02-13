@@ -7,7 +7,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import { Typography, Box, Container, Grid, Paper, Divider, Link } from '@material-ui/core'
-import { GitHub, LinkedIn, Description } from '@material-ui/icons'
+import { GitHub, LinkedIn, Description, Email } from '@material-ui/icons'
 import Experiences from "../components/experiences"
 import Projects from "../components/projects"
 
@@ -17,6 +17,7 @@ import "./index.css"
 
 const GitHubLink = "https://github.com/donutdaniel"
 const LinkedInLink = "https://linkedin.com/in/danielho54"
+const EmailLink = "mailto:danielho54@gmail.com"
 
 const gutter = 2
 
@@ -74,7 +75,7 @@ class IndexPage extends React.Component{
                 </Grid>
               </Box>
               <Divider variant='middle'/>
-              <Box p={gutter} textAlign='left'>
+              <Box paddingX={gutter+3} paddingY={gutter} textAlign='left'>
                 <Grid
                   container
                   align='center'
@@ -84,47 +85,52 @@ class IndexPage extends React.Component{
                 >
                   <Grid item>
                     <Typography gutterBottom variant='h4'>
-                      <Box fontWeight='fontWeightLight' paddingLeft={3}>
+                      <Box fontWeight='fontWeightLight'>
                         About Me
                       </Box>
                     </Typography>
                   </Grid>
                   <Grid item>
-                    <Box paddingX={3}>
-                      <Grid
-                        container
-                        align='center'
-                        justify='center'
-                        direction='row'
-                        spacing={1}
-                      >
-                        <Grid item>
-                          <Link color='inherit' href={GitHubLink} target='_blank' rel='noopener noreferrer'>
-                            <GitHub
-                              fontSize='default'
-                            />
-                          </Link>
-                        </Grid>
-                        <Grid item>
-                          <Link color='inherit' href={LinkedInLink} target='_blank' rel='noopener noreferrer'>
-                            <LinkedIn
-                              fontSize='default'
-                            />
-                          </Link>
-                        </Grid>
-                        <Grid item>
-                          <Link color='inherit' href={ResumeLink} target='_blank' rel='noopener noreferrer'>
-                            <Description
-                              fontSize='default'
-                            />
-                          </Link>
-                        </Grid>
+                    <Grid
+                      container
+                      align='center'
+                      justify='center'
+                      direction='row'
+                      spacing={1}
+                    >
+                      <Grid item>
+                        <Link color='inherit' href={GitHubLink} target='_blank' rel='noopener noreferrer'>
+                          <GitHub
+                            fontSize='default'
+                          />
+                        </Link>
                       </Grid>
-                    </Box>
+                      <Grid item>
+                        <Link color='inherit' href={LinkedInLink} target='_blank' rel='noopener noreferrer'>
+                          <LinkedIn
+                            fontSize='default'
+                          />
+                        </Link>
+                      </Grid>
+                      <Grid item>
+                        <Link color='inherit' href={ResumeLink} target='_blank' rel='noopener noreferrer'>
+                          <Description
+                            fontSize='default'
+                          />
+                        </Link>
+                      </Grid>
+                      <Grid item>
+                        <Link color='inherit' href={EmailLink} target='_blank' rel='noopener noreferrer'>
+                          <Email
+                            fontSize='default'
+                          />
+                        </Link>
+                      </Grid>
+                    </Grid>
                   </Grid>
                 </Grid>
                 <Typography variant='body1'>
-                  <Box paddingX={3} paddingY={1}>
+                  <Box paddingY={1}>
                     Hi, I'm Daniel! I'm currently an undergraduate senior at the University of Southern California - graduating 2020 with a bachelor's in computer science and minor in linguistics.
                     Here you'll find my different experiences and projects I have worked on in the past. When I'm not writing code, you can catch me singing, playing volleyball, or taking photographs!
                   </Box>
