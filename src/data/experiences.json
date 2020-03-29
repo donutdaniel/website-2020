@@ -1,15 +1,5 @@
 [
     {
-        "company": "Flexport",
-        "href": "https://www.flexport.com",
-        "img": "experiences/flexport.png",
-        "title": "Software Engineer",
-        "subtitle": "August 2020 | San Francisco",
-        "description": [
-            "Incoming fullstack software engineer at Flexport!"
-        ]
-    },
-    {
         "company": "Facebook",
         "href": "https://engineering.fb.com",
         "img": "experiences/facebook.png",
