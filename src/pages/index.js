@@ -61,8 +61,8 @@ class IndexPage extends React.Component{
                           strings={[
                             'Hi, I\'m Daniel',
                             'Hi, I\'m a coder',
-                            'Hi, I\'m a designer',
-                            'Hi, I\'m a learner'
+                            'Hi, I\'m a learner',
+                            'Hi, I\'m a doge'
                           ]}
                           typeSpeed={40}
                           backSpeed={50}
@@ -131,8 +131,8 @@ class IndexPage extends React.Component{
                 </Grid>
                 <Typography variant='body1'>
                   <Box paddingY={1}>
-                    Hi, I'm Daniel! I'm currently an undergraduate senior at the University of Southern California - graduating 2020 with a bachelor's in computer science and minor in linguistics.
-                    Here you'll find my different experiences and projects I have worked on in the past. When I'm not writing code, you can catch me singing, playing volleyball, or taking photographs!
+                    Hi, I'm Daniel! I'm currently a software engineer at Flexport and I graduated from the University of Southern California with a B.S. in Computer Science and minor in Linguistics.
+                    Here you'll find my past experiences and projects, which I'm always trying to keep up to date. When I'm not writing code, you can catch me doing music stuff, ballin, or watching crypto and stonks. 🚀
                   </Box>
                 </Typography>
               </Box>

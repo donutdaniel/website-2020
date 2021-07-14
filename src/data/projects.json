@@ -1,5 +1,25 @@
 [
     {
+        "img": "projects/paper.png",
+        "href": "https://arxiv.org/abs/2005.00782",
+        "title": "RICA: Evaluating Robust Inference Capabilities Based on Commonsense Axioms",
+        "subtitle": "Contributor",
+        "description": [
+            "Evaluate pre-trained language models, such as BERT or GPT-2, for their commonsense reasoning against texual logic perturbations.",
+            "Extensive experiments on our generated probe sets with more than 10k statements show that PTLMs perform no better than random guessing on the zero-shot setting, are heavily impacted by statistical biases, and are not robust to perturbation attacks. "
+        ]
+    },
+    {
+        "img": "projects/represend.png",
+        "href": "https://represend.herokuapp.com/",
+        "title": "represend.org",
+        "subtitle": "Creator",
+        "description": [
+            "A platform to crowdsource demands to send to your local representative.",
+            "Built with React and Gatsby, with Google Maps and Civic API."
+        ]
+    },
+    {
         "img": "projects/hacksc.svg",
         "href": "https://hacksc.com",
         "title": "HackSC",

@@ -1,5 +1,17 @@
 [
     {
+        "company": "Flexport",
+        "href": "https://flexport.engineering/",
+        "img": "experiences/flexport.png",
+        "title": "Software Engineer",
+        "subtitle": "August 2020 - Present | San Francisco",
+        "description": [
+            "Designed, developed, and productionized a reimagined developer experience built on Kubernetes. Built with custom operators and cli, developers can develop faster on remote clusters instead of local laptops. Drove adoption to 100% across engineering through org-wide talks, revamped user documentation, and new onboarding processes.",
+            "Led the effort to redesign and rewrite microservice docker structures from the ground up, reducing build times from minutes to seconds with Bazel and shrinking image footprint by more than 50%.",
+            "Led the development of and initiative to use feature flags in microservices. Wrote SDKs in Java and Ruby. Deployed proxies for performance improvement and reliability."
+        ]
+    },
+    {
         "company": "Facebook",
         "href": "https://engineering.fb.com",
         "img": "experiences/facebook.png",
@@ -7,7 +19,7 @@
         "subtitle": "May 2019 - August 2019 | Seattle",
         "description": [
             "Backend Engineering on Messenger Infrastructure in C++ and PHP.",
-            "Designed, Built, and Shipped new post processing procedures for contact and story delivery and storage. Worked across multiple teams to deliver support fortheir products.",
+            "Designed, Built, and Shipped new post processing procedures for contact and story delivery and storage. Worked across multiple teams to deliver support for their products.",
             "Optimizations resulted in CPU and Storage cost reduction. Successfully launched and in production."
         ]
     },
