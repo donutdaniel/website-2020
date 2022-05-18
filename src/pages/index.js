@@ -131,8 +131,7 @@ class IndexPage extends React.Component{
                 </Grid>
                 <Typography variant='body1'>
                   <Box paddingY={1}>
-                    Hi, I'm Daniel! I'm currently a software engineer at Flexport and I graduated from the University of Southern California with a B.S. in Computer Science and minor in Linguistics.
-                    Here you'll find my past experiences and projects, which I'm always trying to keep up to date. When I'm not writing code, you can catch me doing music stuff, ballin, or watching crypto and stonks. 🚀
+                    Hi, this website is outdated. See my <Link href='https://danielho.xyz' rel='noopener noreferrer'>danielho.xyz</Link>
                   </Box>
                 </Typography>
               </Box>
